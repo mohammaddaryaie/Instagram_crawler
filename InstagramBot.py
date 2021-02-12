@@ -179,7 +179,7 @@ class InstagramBot:
                 time.sleep(Constant.c_scroll_waiting)
                 posts = bot.find_elements_by_class_name('v1Nh3')
 
-                if len(posts) < 5:
+                while len(posts) < postnumber:
                     time.sleep(2)
                     bot.execute_script('arguments[0].scrollTop = arguments[0].scrollHeight', homePage)
                     posts = bot.find_elements_by_class_name('v1Nh3')
