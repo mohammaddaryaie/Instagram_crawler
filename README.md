@@ -22,7 +22,9 @@ UpdateMyFollowersFile: This function use the FindMyFollower function and write i
 
 UpdateMyFollowingsFile: Here, the following.txt file is created and every time you call it, updates it. In this file, you can find your following list.
 
-FetchSourcePagePostsLikers:
+FetchSourcePagePosts:Between files, there is the source_page.txt file. In this file, you can list the pages which have large number followers or are well-known. This function read source_page.txt and fetch the first posts, you can specify the nymber of fetched posts as an input 'postnumber'. Finally, you can see the result in the source_page_posts.txt file.
+
+FetchSourcePagePostsLikers: This function reads the source_page_posts.txt. Next, extracts all pages what like the pages' posts,. Afterwards, it writes them in the source_page_posts_likers.txt and user_list_to_follow.txt. If the page name is in the user_list_to_follow.txt, it goes by it.
 
 UpdateLikersByFollowers:
 
