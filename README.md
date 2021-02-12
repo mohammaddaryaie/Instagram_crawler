@@ -12,15 +12,15 @@ Follow bellow instructions to initiate code:
 4- You can run the code.
 
 Functions:
-Login: In this function you should enter username and password, next call it to login by your account in instagram.
+Login: In this function you should enter your username and password, next, call it to login by your account in Instagram.
 
-FindMyFollower: This Function extract all your followers and return them as a list.
+FindMyFollower: This Function extracts all your followers and returns them as a list.
 
-FindMyFollowing: This Function extract all your following list and return them as a list.
+FindMyFollowing: This Function extracts all your following list and returns them as a list.
 
-UpdateMyFollowersFile:
+UpdateMyFollowersFile: This function use the FindMyFollower function and write it in the followers.txt. Besides, it compares current followers list with previous one, then finds someones who unfollow you. Next,it writes them in the followers_unfollow.txt.
 
-UpdateMyFollowingsFile:
+UpdateMyFollowingsFile: Here, the following.txt file is created and every time you call it, updates it. In this file, you can find your following list.
 
 FetchSourcePagePostsLikers:
 
