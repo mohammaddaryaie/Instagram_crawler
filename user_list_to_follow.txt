@@ -1,1 +1,0 @@
-username,follow_flag,date_insert,date_follow
